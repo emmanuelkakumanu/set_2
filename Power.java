@@ -9,9 +9,9 @@ class Power
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		int p=s.nextInt();
-		int pow=0;
+		int pow=1;
 		for(int i=0;i<p;i++)
-		pow=n*n;
+		pow=pow*n;
 		System.out.println(pow);
 	}
 }
