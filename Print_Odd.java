@@ -10,7 +10,7 @@ class Print_Odd
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		int m=s.nextInt();
-		for(int i=n;i<=m;i++)
+		for(int i=n+1;i<m;i++)
 		{
 			if(i%2==1)
 			System.out.print(i);
