@@ -26,7 +26,7 @@ class Sort_Array
 			}
 		}
 		for(int i=0;i<n;i++)
-		System.out.println(a[i]);
+		System.out.print(a[i]+" ");
 		
 	}
 }
