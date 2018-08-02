@@ -16,7 +16,7 @@ class Numeric_Check
 			f=1;
 		}
 		if(f==1)
-		System.out.println("no");
+		System.out.println("No");
 		else
 		System.out.println("yes");
 	}
