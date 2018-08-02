@@ -16,7 +16,7 @@ class Sort_Array
 		{
 			for(int j=0;j<n;j++)
 			{
-				if(a[i]>a[j])
+				if(a[i]<a[j])
 				{
 					int temp=a[i];
 					a[i]=a[j];
