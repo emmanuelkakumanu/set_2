@@ -26,12 +26,12 @@ class Sort_Array1
 			}
 		}
 		for(int i=0;i<size;i++)
-    {
-		if(i<size-1)
-    System.out.print(b[i]+" ");
-    else
-    System.out.print(a[i])
-    }
+    		{
+			if(i<size-1)
+    			System.out.print(b[i]+" ");
+    			else
+    			System.out.print(b[i]);
+    		}
 		
 	}
 }
